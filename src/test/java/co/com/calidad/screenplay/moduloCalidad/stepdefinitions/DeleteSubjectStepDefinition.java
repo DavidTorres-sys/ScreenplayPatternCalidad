@@ -6,8 +6,10 @@ import io.cucumber.java.en.When;
 
 public class DeleteSubjectStepDefinition {
 
-    @Given("the user is authenticated on the Toolbox platform")
-    public void theUserIsAuthenticatedOnTheToolboxPlatform() {
+
+    @Given("the user is authenticated to delete a subject")
+    public void TheUserIsAuthenticatedToDeleteASubject() {
+
     }
 
     @When("the user requests to delete the course with id {string}")

@@ -7,12 +7,12 @@ import io.cucumber.java.en.When;
 
 public class PostSubjectStepDefinition {
 
-    @Given("the user is logged into the Toolbox platform")
-    public void theUserIsLoggedIntoTheToolboxPlatform() {
+    @Given("the user is authenticated to post a subject")
+    public void theUserIsAuthenticatedToPostASubject() {
     }
 
-    @Given("the user is not authenticated on the Toolbox platform")
-    public void theUserIsNotAuthenticatedOnTheToolboxPlatform() {
+    @Given("the user is not authenticated to post a subject")
+    public void theUserIsNotAuthenticatedToPostASubject() {
     }
 
     @When("the user submits the details of a new subject")

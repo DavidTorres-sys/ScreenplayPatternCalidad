@@ -13,7 +13,7 @@ Feature: Consult subject information
 
   Scenario: The user searches for an existing subject by its code
     Given the user is logged into the Toolbox platform
-    When the user enters the subject code "l1"
+    When the user enters the subject code "2508120"
     Then the system responds with detailed information about the subject
 
   Scenario: The user searches for a non-existent subject by code
