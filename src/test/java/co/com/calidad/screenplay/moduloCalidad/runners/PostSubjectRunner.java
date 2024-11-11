@@ -10,4 +10,5 @@ import org.junit.runner.RunWith;
         glue = "co.com.calidad.screenplay.moduloCalidad.stepdefinitions",
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
+
 public class PostSubjectRunner { }

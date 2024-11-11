@@ -15,6 +15,7 @@ import net.serenitybdd.screenplay.rest.interactions.Get;
  */
 public class ConsumeSubject implements Task {
 
+    private static final String ENDPOINT = "subjectfull/";
     private final String subjectId;
 
     /**
@@ -35,7 +36,7 @@ public class ConsumeSubject implements Task {
      */
     @Override
     public <T extends Actor> void performAs(T actor) {
-        String getOf = "subjectfull/" + subjectId;
+        String getOf = ENDPOINT + subjectId;
         actor.attemptsTo(
                 Get.resource(getOf).with(
                         request -> request
